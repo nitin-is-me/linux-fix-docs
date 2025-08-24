@@ -1,0 +1,51 @@
+## Redshift (for eye protection)
+
+1. Install redshift:
+   ```
+   sudo apt install redshift redshift-gtk
+   ```
+2. Make a config file named `redshift.conf`:
+   ```
+   ~/.config/redshift.conf
+   ```
+3. Paste this inside that file and save it:
+   ```
+    [redshift]
+    temp-day=3500
+    temp-night=3500
+    brightness=1.0
+    gamma=1.0
+    transition=0
+    location-provider=manual
+    
+    [manual]
+    lat=0
+    lon=0
+   ```
+4. Now start redshift either from start menu or by typing `redshift-gtk` in the terminal.
+5. Click on the icon in panel to check if autostart is enabled or not.
+
+## xfce4-clipman (for clipboard history)
+
+1. Install xfce4-clipman
+   ```
+   sudo apt install xfce4-clipman
+   ```
+2. Start clipman either from start menu or by typing `clipman` in the terminal.
+3. Click on the icon in panel to check if autostart is enabled or not.
+
+## light-locker (in replacement of xfce4-screensaver for auto locking, nothing more)
+
+1. Install light-locker
+   ```
+   sudo apt install light-locker
+   ```
+2. That's it, now it's available in the power manager of xfce. We can also download a separate software for managing its settings: `sudo apt install light-locker-settings`, but it's not needed in most cases.
+
+## arc-theme and papirus-icon-theme (nice, dark, stable theme and icon that go well together)
+ 
+1. Install arc-theme and papirus-icon-theme
+   ```
+   sudo apt install arc-theme papirus-icon-theme
+   ```
+2. Apply them both from appearance settings.
