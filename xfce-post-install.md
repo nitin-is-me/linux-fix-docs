@@ -4,7 +4,7 @@ I'm not documenting visual customization, because it can be changed really easil
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/35196a8c-00ea-4385-82eb-b09c271643cc" />
 
 
-## Redshift (for eye protection)
+## Redshift (for eye protection):
 
 1. Install redshift:
    ```
@@ -31,7 +31,7 @@ I'm not documenting visual customization, because it can be changed really easil
 4. Now start redshift either from start menu or by typing `redshift-gtk` in the terminal.
 5. Click on the icon in panel to check if autostart is enabled or not.
 
-## xfce4-clipman (for clipboard history)
+## xfce4-clipman (for clipboard history):
 
 1. Install xfce4-clipman
    ```
@@ -40,7 +40,7 @@ I'm not documenting visual customization, because it can be changed really easil
 2. Start clipman either from start menu or by typing `clipman` in the terminal.
 3. Click on the icon in panel to check if autostart is enabled or not.
 
-## light-locker (in replacement of xfce4-screensaver for auto locking, nothing more)
+## light-locker (in replacement of xfce4-screensaver for auto locking, nothing more):
 
 1. Install light-locker
    ```
@@ -48,13 +48,21 @@ I'm not documenting visual customization, because it can be changed really easil
    ```
 2. That's it, now it's available in the power manager of xfce. We can also download a separate software for managing its settings: `sudo apt install light-locker-settings`, but it's not needed in most cases.
 
-## arc-theme and papirus-icon-theme (nice, dark, stable theme and icon that go well together)
+## arc-theme and papirus-icon-theme (nice, dark, stable theme and icon that go well together):
  
 1. Install arc-theme and papirus-icon-theme
    ```
    sudo apt install arc-theme papirus-icon-theme
    ```
 2. Apply them both from appearance settings.
+
+## fonts-noto-color-emoji (for emoji and other characters support):
+
+1. Install fonts-noto-color-emoji:
+   ```
+   sudo apt install fonts-noto-color-emoji
+   ```
+2. That's it.
 
 ## Enable USB file transfer (if not working):
 
@@ -64,7 +72,7 @@ I'm not documenting visual customization, because it can be changed really easil
    ```
 2. That's it! Happy file transferring.
 
-## Customize lock screen (lightdm)
+## Customize lock screen (lightdm):
 
 1. Edit `/etc/lightdm/lightdm.conf` to change lock screen behaviour:
    - Uncomment `greeter-hide-users=false`
