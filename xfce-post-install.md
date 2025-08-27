@@ -48,7 +48,7 @@ I'm not documenting visual customization, because it can be changed really easil
    ```
 2. That's it, now it's available in the power manager of xfce. We can also download a separate software for managing its settings: `sudo apt install light-locker-settings`, but it's not needed in most cases.
 
-## arc-theme and papirus-icon-theme (or Orchid-theme and Kora icons from internet, these two sets go well along):
+## arc-theme and papirus-icon-theme (or Orchis-theme and Kora icons from internet, these two sets go well along):
  
 1. Install arc-theme and papirus-icon-theme
    ```
