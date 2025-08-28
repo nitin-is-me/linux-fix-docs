@@ -72,6 +72,17 @@ I'm not documenting visual customization, because it can be changed really easil
    ```
 2. That's it! Happy file transferring.
 
+## Enable "Open as root" in thunar:
+
+1. Open thunar, go to Edit -> Configure custom actions
+2. Click on (+) icon and fill the following:
+   - Name: Open as root
+   - Description: Open folder as root
+   - Command: `pkexec thunar %f`
+3. Go to "Appearance Conditions" tab
+4. Check "Directories" and "Text Files"
+5. Done
+
 ## Customize lock screen (lightdm):
 
 1. Edit `/etc/lightdm/lightdm.conf` to change lock screen behaviour:
