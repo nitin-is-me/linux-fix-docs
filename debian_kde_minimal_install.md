@@ -8,3 +8,8 @@
  - If that doesn't work, go to /etc/network/interfaces, comment out your interface and reboot. 
 
 ### Step 5: Some extra fonts can be missing, install them by installing the `fonts-recommended` metapackage.
+
+### Step 6: From version 12, Debian now includes non-free and proprietary firmwares/drivers in the official iso, but you need to tell Debian to use the non-free repo. To do that:
+ - Edit the `/etc/apt/sources.list` file.
+ - Add `non-free` and `contrib` in every entry of the repo.
+ - Run `sudo apt update`
