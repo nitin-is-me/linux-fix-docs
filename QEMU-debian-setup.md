@@ -439,7 +439,7 @@ Do not assume that every modern Linux distribution uses a single `libvirtd` daem
 Check the available libvirt networks:
 
 ```bash
-virsh net-list --all
+sudo virsh net-list --all
 ```
 
 You will typically see something similar to:
@@ -453,19 +453,19 @@ You will typically see something similar to:
 If the default network exists but is inactive:
 
 ```bash
-virsh net-start default
+sudo virsh net-start default
 ```
 
 To make it start automatically:
 
 ```bash
-virsh net-autostart default
+sudo virsh net-autostart default
 ```
 
 Then verify:
 
 ```bash
-virsh net-list --all
+sudo virsh net-list --all
 ```
 
 ---
